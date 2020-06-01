@@ -34,14 +34,4 @@ CREATE TABLE user
   FOREIGN KEY (adressID) REFERENCES adress(adressID),
   FOREIGN KEY (credit_number) REFERENCES payment(credit_number)
 );
-[A###################]
-FirstName
-LastName
-[9999999999]
-[######]
-Email
-'https://' + [A#######] + '.com'
-List('Seller', '')
- List(select adressID from adress)
-List(select CREDIT_NUMBER from payment)
 
